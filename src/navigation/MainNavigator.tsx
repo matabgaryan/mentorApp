@@ -2,7 +2,7 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
 import HomeStackNavigator from "~navigation/HomeStackNavigator";
-import ContactStackNavigator from "~navigation/ContactNavigator";
+import EmployeeStackNavigator from "~navigation/EmployeeNavigator";
 import colors from "~configs/ui/colors";
 import { MaterialUIIcon } from "~components/icons";
 import AccountStackNavigator from "~navigation/AccountStackNavigator";
@@ -14,7 +14,6 @@ const tabScreenOptions = (iconName: string) => {
         tabBarShowLabel: false,
 
         headerShown: true,
-        // header: () => <DefaultScreenHeader />,
         tabBarIcon: () => <MaterialUIIcon name={iconName}/>
     }
 }
@@ -31,7 +30,7 @@ const MainNavigator = () => {
                 <Tab.Screen
                     options={tabScreenOptions('work')}
                     name="Employees"
-                    component={ContactStackNavigator} />
+                    component={EmployeeStackNavigator} />
                 <Tab.Screen
                     options={{
                         tabBarActiveBackgroundColor: colors.greyBackground,

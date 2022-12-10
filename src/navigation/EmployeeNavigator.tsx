@@ -3,7 +3,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Contact from '../screens/Employees'
 const Stack = createNativeStackNavigator();
 
-const ContactStackNavigator = () => {
+const EmployeeStackNavigator = () => {
     return (
         <Stack.Navigator>
             <Stack.Screen
@@ -15,4 +15,4 @@ const ContactStackNavigator = () => {
     );
 };
 
-export default ContactStackNavigator
+export default EmployeeStackNavigator
