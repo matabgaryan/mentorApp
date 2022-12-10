@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImagePickerButton component should match to snapshot Form 1`] = `ShallowWrapper {}`;
