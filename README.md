@@ -7,6 +7,7 @@ For Deployment:
 ## Project Description
 Simple  app  allowing user to see mentors and employees list, authenticate , create group of employees, share profile with other employees.
 ## Core tools Versions
+* [Xcode](https://developer.apple.com/xcode/) `13.4.1 `
 * [COCOAPODS](https://reactnative.dev/) `1.11.3`: 
 * [Node](https://reactnative.dev/) `v16.14.2`: 
 * [Yarn](https://reactnative.dev/) `1.22.18`: 
