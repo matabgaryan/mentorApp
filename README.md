@@ -1,9 +1,3 @@
-## Getting started
-
-
-For Deployment:
-- `npm run deploy` to deploy new changes 
-
 ## Project Description
 Simple  app  allowing user to see mentors and employees list, authenticate , create group of employees, share profile with other employees.
 ## Core tools Versions
